@@ -23,7 +23,7 @@ const ProjectCard = ({
 					scale: 1,
 					speed: 450,
 				}}
-				className='bg-tertiary p-5 rounded-2xl md:w-[320px] w-full shadow-md shadow-primary'>
+				className='bg-tertiary p-5 rounded-2xl md:w-[500px] w-full shadow-md shadow-primary'>
 				<div className='relative w-full h-[230px]'>
 					<img
 						src={image}
@@ -76,9 +76,9 @@ const Projects = () => {
 			<div className='w-full flex'>
 				<motion.p
 					variants={fadeIn("", "", 0.1, 1)}
-					className='mt-3 text-white-100 text-[17px] max-w-3xl leading-[30px]'>
+					className='mt-3 text-white-100 text-[17px] max-w-6xl leading-[30px]'>
 					I have worked on a variety of projects, ranging from simple
-					responsive websites to useful applications. The following
+					management systems to useful ml-based applications. The following
 					projects showcase a variety of skills and highlight a
 					diverse range of technologies. Each project also has a link
 					to the source code on Github, so feel free to check it out!

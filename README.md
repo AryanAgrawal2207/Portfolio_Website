@@ -1,34 +1,74 @@
-# React-Portfolio
-## https://jnordst-portfolio.netlify.app/
-![image](https://github.com/jnordst/React-Portfolio/assets/12515630/584ad384-b1fa-4c55-b592-dfdd9e1e99ab)
+# React Portfolio
 
-## Introduction
-Built entirely using the React.js framework, this project is meant to be a showcase of my personal skills, education, projects and act as a means for employers to contact me. Basically a fancy resume. This project was a lot of fun to build and I learned a ton of things about React, as it was largely my first big project using React.
+This is a personal portfolio website built using React, showcasing my skills, projects, and experience.
 
-## About
-🌩️ Built using React.js, Vite, and Node.js
+## Table of Contents
 
-🎬 Animated using Framer Motion
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
+- [License](#license)
 
-🔥 3d effects provided by Tilt and ThreeJS
+## Demo
 
-✉️ Send me an email using Email.js
+Check out the live demo of the portfolio [here](https://aryan-agrawal-portfolio.netlify.app).
 
-🖼️ Styled (almost) entirely using TailwindCSS
+## Features
 
-📱 Fully responsive layout
+- Responsive design for all devices
+- Dynamic project and experience sections
+- Contact form with email integration
+- Resume download feature
+- Smooth animations and transitions
 
-⚙️ Every section is fully customizable, built dynamically using objects
+## Installation
 
-🧹 Clean, scalable, and reusable code, featuring industry best practices
+1. **Clone the repository:**
+   git clone https://github.com/AryanAgrawal2207/Portfolio_Website.git
+   cd react-portfolio
 
-## Known Issues
-- The Skills section doesn't work properly on some mobile devices, resulting in a the entire section not loading
+2. **Install dependencies:**
+   npm install
 
-## Credits
-I can't take full credit for the amazing design. While I did perform a complete project overhaul, the original design is credited to the talented Javascript Mastery https://youtu.be/0fYi8SGA20k
+3. **Run the development server:**
+   npm run dev
 
-## Showcase
-![image](https://github.com/jnordst/React-Portfolio/assets/12515630/dfb43fe8-36a7-49bc-9535-b4b287195523)
+4. **Build the project:**
+   npm run build
 
-![image](https://github.com/jnordst/React-Portfolio/assets/12515630/250f3e1e-781d-4327-8ba9-94f5c5593a9e)
+## Usage
+
+- Visit `http://localhost:5173` in your browser to view the portfolio.
+- Update the content in the `src` folder to customize the portfolio according to your details.
+
+## Deployment
+
+1. **Build the project:**
+   npm run build
+
+2. **Deploy to Netlify:**
+   - Install Netlify CLI if not already installed:
+     npm install -g netlify-cli
+   - Deploy the `dist` folder:
+     netlify deploy --dir=dist --prod
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Framer Motion
+- EmailJS
+- Vite
+
+## Contact
+
+Feel free to reach out for collaboration or inquiries:
+
+- **Email:** aryanagrawal2207@gmail.com
+- **Instagram:** [@__.aryan22](https://instagram.com/__.aryan22)
+- **Phone:** +91-9619775758
+

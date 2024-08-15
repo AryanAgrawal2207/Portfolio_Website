@@ -3,20 +3,15 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
     git,
-    threejs,
-    csharp,
     java,
     python,
-    php,
-    asp,
-    azure,
-    bootstrap,
     sql,
     georgian,
     lazehrs,
+    projectmerc,
     nordgames,
+    figma,
     github,
     linkedin,
     happybirthday
@@ -32,9 +27,21 @@ import {
         title: "About",
     },
     {
+       id: "education",
+       title: "Education",
+    },
+    {
+      id: "skills",
+      title: "Skills",
+    },
+    {
         id: "projects",
         title: "Projects",
     },
+    {
+      id: "experience",
+      title: "Experience",
+  },
     {
         id: "contact",
         title: "Contact",
@@ -42,11 +49,7 @@ import {
   ];
   
   const technologies = [
-    {
-        name: "C#",
-        icon: csharp,
-        fill: 70,
-    },
+    
     {
         name: "Java",
         icon: java,
@@ -78,173 +81,172 @@ import {
         fill: 30,
     },
     {
-        name: "ThreeJS",
-        icon: threejs,
-        fill: 20,
-    },
-    {
-        name: "Tailwind",
-        icon: tailwind,
-        fill: 30,
-    },
-    {
-        name: "Bootstrap",
-        icon: bootstrap,
-        fill: 30,
-    },
-    {
-        name: "Php",
-        icon: php,
-        fill: 40,
-    },
-    {
-        name: "ASP.NET",
-        icon: asp,
-        fill: 50,
-    },
-    {
         name: "SQL",
         icon: sql,
         fill: 60,
     },
     {
-        name: "Azure",
-        icon: azure,
-        fill: 20,
-    },
-    {
         name: "Git",
         icon: git,
-        fill: 50,
-      },
-
+        fill: 20,
+    },
   ];
   
   const education = [
     {
-        title: "Opticanry",
-        company_name: "Georgian College",
+        title: "Bachelor of Engineering in Information Technology",
+        company_name: "Vidyalankar Institute of Technology",
         icon: georgian,
         iconBg: "#383E56",
-        date: "2017 - 2020",
+        date: "2021 - 2025",
         points: [
-            "Learned practical skills in dispensing eyeglasses, contact lenses, and sub-normal vision devices, as well as basic refraction",
-            "Emphasis is placed on ocular sciences, optics, anatomy, and providing personalized eyewear services.",
-            "Developed critical thinking, problem-solving, and entrepreneurial skills to establish and operate a small business in the optical retail environment.",
-            "Recognized for exceptional academic performance, achieving Dean's List with a GPA of 89%."
+            
+            "CGPA: 9.94"
         ],
     },
     {
-        title: "Computer Programming",
-        company_name: "Georgian College",
+        title: "H.S.C",
+        company_name: "B.N. Bandodkar College of Science",
         icon: georgian,
         iconBg: "#E6DEDD",
-        date: "2022 - Current",
+        date: "2019 - 2021",
         points: [
-            `Excelled in Object-Oriented Programming languages including C#, Java, and Python, enabling the creation of efficient and scalable software applications.`,
-            "Acquired a solid foundation in Web Programming Fundamentals, including HTML, CSS, JavaScript, and PHP, enabling the development of interactive and dynamic web applications.",
-            "Learned the Model View Controller system utilizing technologies such as PHP, JavaFX, and ASP.NET, facilitating the creation of robust and well-structured software architectures.",
-            "Gained expertise in working with relational database systems such as mySQL and msSQL, allowing for effective data management and retrieval.",            
-            "Recognized for exceptional academic performance, achieving Dean's List with a GPA of 93%."
+            "Distincion with 96.33%."
         ],
     },
+    {
+      title: "S.S.C",
+      company_name: "S.V.P.T's Saraswati Vidyalaya High School",
+      icon: georgian,
+      iconBg: "#383E56",
+      date: "2018 - 2019",
+      points: [
+          "Distincion with 96.20%."
+      ],
+  },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "Jacob created a Python application that automated a tedious task for our team. He was very professional!",
-      name: "Corey Berry",
-      designation: "IDT",
-      company: "Georgian College",
-      image: corey,
-    },
-    {
-      testimonial:
-        "Jacob is an excellent young developer. He is one of my brightest students, I highly recommend him!",
-      name: "Wayne Brown",
-      designation: "Professor",
-      company: "Georgian College",
-      image: user,
-    },
-    {
-      testimonial:
-        "Jacob is a very talented developer. He is very professional and I would recommend him to anyone!",
-      name: "Shaun Mckinnon",
-      designation: "Tech Architect",
-      company: "LabX Media",
-      image: shaun,
-    },
+      title: "Machine Learning Intern",
+      company_name: "Cere Labs pvt. ltd.",
+      icon: georgian,
+      iconBg: "#383E56",
+      date: "February 2024-March 2024",
+      points: [
+          
+          "Designed a legal document anonymization system, enhancing privacy and confidentiality by 90%.",
+          "Leveraged BERT’s Named-Entity Recognition to accurately anonymize 1,000+ names, addresses,contacts, emails, dates, and amounts.",
+          "Integrated OpenAI for summarizing anonymized text and thus verifying document integrity with 95% accuracy."
+      ],
+  },
+  {
+      title: "Snapchat Opinion Leader",
+      company_name: "Snapchat India, Under25 Universe",
+      icon: georgian,
+      iconBg: "#E6DEDD",
+      date: "June 2023-January 2024",
+      points: [
+          "Designed viral AR-based Snapchat Lenses and spotlight videos.",
+          "Garnered a total reach of over 3 million.",
+          "Actively participated in various team building and community activities."
+      ],
+  },
   ];
   
   const projects = [
     {
-      name: "Lazehrs",
+      name: "Social Media Image Captioning",
       description:
         "A Java based shopping assistance app where users can collaborate and submit the locations of items from stores around the world to help others find them.",
       tags: [
         {
-          name: "java",
+          name: "python",
           color: "pink-text-gradient",
         },
         {
-          name: "javafx",
+          name: "ml",
           color: "blue-text-gradient",
         },
         {
-            name: "object-oriented",
+            name: "cnn",
             color: "green-text-gradient",
         },
       ],
-      image: lazehrs,
-      source_code_link: "https://github.com/jnordst/Lazehrs",
+      image: projectmerc,
+      source_code_link: "https://github.com/AryanAgrawal2207/Social_Media_Image_Captioning.git",
     },
     {
-      name: "Nord Games",
+      name: "IPL Score Predictor",
       description:
         "A reactive e-commerce website for a fictional board game store, built with HTML, CSS, and powered by Javascript where users can browse dynamicly displayed products.",
       tags: [
         {
-          name: "html",
+          name: "ML",
           color: "orange-text-gradient",
         },
         {
-          name: "css",
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
       image: nordgames,
-      source_code_link: "https://github.com/jnordst/Nord-Games",
+      source_code_link: "https://github.com/AryanAgrawal2207/IPL-Score-Prediction.git",
     },
     {
-      name: "Happy Birthday",
+      name: "Medicinal Plant Identification",
       description:
         "A Python based application that sends emails to clients on their birthday with a personalized message and a promotional coupon code by reading from a spreadsheet.",
       tags: [
         {
           name: "python",
           color: "orange-text-gradient",
-        }
+        },
+        {
+          name: "cnn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "streamlit",
+          color: "pink-text-gradient",
+        },
       ],
       image: happybirthday,
-      source_code_link: "https://github.com/jnordst/HappyBirthday",
+      source_code_link: "https://github.com/AryanAgrawal2207/Medicinal_Plant_Identification.git",
     },
+    {
+      name: "Clinic Management System",
+      description:
+        "A Python based application that sends emails to clients on their birthday with a personalized message and a promotional coupon code by reading from a spreadsheet.",
+      tags: [
+        {
+          name: "python",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: lazehrs,
+      source_code_link: "https://github.com/AryanAgrawal2207/Clinic-Management-System.git",
+    }
   ];
 
   const heroLinks = [
     {
         src: github,
         alt: "github",
-        link: "https://github.com/jnordst",
+        link: "https://github.com/AryanAgrawal2207",
     },
     {
         src: linkedin,
         alt: "linkedin",
-        link: "https://www.linkedin.com/in/jacob-nordstrom/",
+        link: "https://www.linkedin.com/in/aryan-agrawal-14a3532aa/",
     },
   ];
   

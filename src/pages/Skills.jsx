@@ -14,12 +14,13 @@ const Skills = () => {
 				<h2 className={styles.sectionHeadText}>Skills</h2>
 			</motion.div>
 
-			<div className='mt-20 flex flex-wrap gap-10 lg:justify-start justify-center'>
+			<div className='mt-100 flex flex-wrap gap-20 lg:justify-start justify-center'>
 				{technologies.map((technology, index) => (
 					<IconCard
 						key={technology.name}
 						index={index}
 						fill={technology.fill}
+						name = {technology.name}
 						{...technology}
 					/>
 				))}
@@ -28,4 +29,4 @@ const Skills = () => {
 	);
 };
 
-export default SectionWrapper(Skills, "");
+export default SectionWrapper(Skills, "skills");

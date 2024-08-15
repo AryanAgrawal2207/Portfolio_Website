@@ -35,7 +35,7 @@ const EducationCard = ({ experience }) => {
 				</h3>
 
 				<p
-					className='white-100 text-[16px] font-semibold'
+					className='white-100 text-[16px] font-semibold mt-5'
 					style={{ margin: 0 }}>
 					{experience.company_name}
 				</p>
@@ -73,4 +73,4 @@ const Education = () => {
 	);
 };
 
-export default SectionWrapper(Education, "work");
+export default SectionWrapper(Education, "education");

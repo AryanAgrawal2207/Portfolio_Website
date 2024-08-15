@@ -11,7 +11,7 @@ const styles = {
     sectionHeadText:
       "text-white-100 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
-      "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+      "mt-20 sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
     icon:
         "object-contain w-14 h-14 lg:w-24 lg:h-24 sm:w-20 sm:h-20 xs:w-16 xs:h-16 cursor-pointer",

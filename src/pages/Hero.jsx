@@ -20,16 +20,16 @@ const Hero = () => {
 						{/* Header */}
 						<h1 className={`${styles.heroHeadText} text-white`}>
 							Hi, I'm{" "}
-							<span className='text-hero'>Jacob</span>
+							<span className='text-hero'>Aryan</span>
 						</h1>
 						<p
 							className={`${styles.heroSubText} mt-2 text-white-100`}>
-							A{" "}
+							An{" "}
 							<span className='text-hero'>
-								Student Developer
+							AI-ML Enthusiast
 							</span>{" "}
 							<br className='sm:block hidden' />
-							with a passion for learning
+							with a passion for learning 
 						</p>
 
 						{/* Socials */}
@@ -53,7 +53,7 @@ const Hero = () => {
 				<img
 					src={logo}
 					alt='logo'
-					className='max-[825px]:hidden min-[800px]:w-[256px] min-[800px]:h-[256px] '
+					className='max-[825px]:hidden min-[800px]:w-[400px] min-[800px]:h-[400px] '
 				/>
 			</div>
 		</section>
